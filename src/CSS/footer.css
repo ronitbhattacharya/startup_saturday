@@ -1,0 +1,46 @@
+.footer-body{
+    background-color: rgba(26, 26, 71,0.6);
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.contact-body{
+    box-sizing: border-box;
+    width:50%;
+    height:100%;
+}
+
+.footer-lens-logo{
+    width: 20%;
+    height: 50%;
+    margin: 0px;
+}
+
+.footer-address-text{
+    margin-top: 5px;
+    color: white;
+    cursor: default;
+}
+
+.main-address-text{
+    
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.social-media-icon{
+    width:10%;
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+

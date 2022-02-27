@@ -1,0 +1,41 @@
+.main-body{
+    z-index: -20;
+    line-height: 1;
+    /* display: flex;
+    flex-direction: row; */
+    opacity: 1;
+    background-color: #ece8e6;
+    background-image: url("/public/formBackGround.jpg");
+    background-position: top center;
+    background-size: cover;
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.lens-logo{
+
+    width: 10%;
+    height: 20%;
+
+}
+
+.lens-logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.question-portion{
+    z-index: 40;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

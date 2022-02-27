@@ -1,0 +1,38 @@
+.header-body{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 99%;
+    margin: 10px;
+}
+
+.header-icon{
+    width:30%
+}
+
+.header-icon img{
+    width:30%;
+    height: 30%;
+}
+
+.action-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+    width: 60%;
+    color: rgb(9, 9, 78);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.action-tabs div:hover{
+    text-shadow: 6px 6px 6px gray;
+}

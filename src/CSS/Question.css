@@ -1,0 +1,132 @@
+.welcome-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome-text{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 6px gray;
+    /* height: 40%;
+    width: 25%; */
+    text-shadow: 6px 6px 6px rgb(235, 69, 69);
+    display: block;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.wel-text-1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.wel-text-2{
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;;
+}
+
+.action-part{
+    height: 70%;
+    width: 35%;
+    text-shadow: 6px 6px 6px rgb(165, 135, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.action-text-1{
+    font-size: 25px;
+}
+.action-text-2{
+    font-size: 20px;
+    color: gray;
+}
+
+.action-btn button{
+    font-size: 27px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(223, 84, 33);
+    color:white;
+    font-weight: 500;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.action-btn button:hover{
+    box-shadow: 6px 6px 6px rgb(59, 56, 56);
+}
+
+.action-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.action-btn span{
+    font-size: 18px;
+}
+
+
+.question-body{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.question-text{
+    width:55%;
+    font-size:30px;
+    margin: 10px;
+}
+
+
+.output{
+    width:50%
+}
+
+.msg{
+    font-size:20px;
+    color:gray;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.mover-btn{
+    margin-top: 15px;
+    width: 50%;
+}
+
+.mover-btn button{
+    box-sizing: border-box;
+    font-size: 25px;
+    background-color: rgb(152, 152, 226);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.mover-btn button:hover{
+    box-shadow: 6px 6px 6px gray;
+}
