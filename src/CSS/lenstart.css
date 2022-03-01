@@ -66,6 +66,7 @@
 
 .part-2-content-1-content div{
     font-size: 25px;
+    box-sizing:border-box;
     font-weight: bold;
 }
 
@@ -87,12 +88,14 @@
 
 .part-2-content-2-content-1,.part-2-content-2-content-2{
     width: 85%;
+    box-sizing:border-box;
     margin: 10px;
 }
 
 .part-2-content-2-content-1 div,.part-2-content-2-content-2 div{
     font-size: 25px;
     font-weight: bold;
+    box-sizing:border-box;
 }
 
 .part-2-content-2-content-1 span,.part-2-content-2-content-2 span{
@@ -100,6 +103,7 @@
 }
 .part-2-content-3-content div{
     font-size: 25px;
+    box-sizing:border-box;
     font-weight: bold;
 }
 .part-2-content-3-content span{
