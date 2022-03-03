@@ -130,3 +130,33 @@
 .mover-btn button:hover{
     box-shadow: 6px 6px 6px gray;
 }
+
+
+@media only screen and (max-width:800px){
+    .action-text-1,.action-text-2{
+        /* display: none; */
+        font-size: 18px;
+    }
+    .action-part{
+        width: 90%;
+    }
+    .action-btn{
+        width: 100%;
+    }
+    .action-btn button{
+        font-size: 20px;
+    }
+    .welcome-text{
+        padding: 20px;
+        
+    }
+    .welcome-text{
+        margin-bottom: 5px;
+    }
+    .question-text{
+        font-size: 25px;
+    }
+    .mover-btn button{
+        font-size: 20px;
+    }
+}

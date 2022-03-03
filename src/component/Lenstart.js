@@ -1,5 +1,4 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 import { host_name } from './Keys'
 import Footer from "./Footer"
 import Header from "./Header"
@@ -14,9 +13,8 @@ export default function Lenstart() {
   )
 }
 
-
+ 
 function MainContent(){
-  const history=useHistory()
   return(
     <div className='main-home-content'>
         <div className='part-1'>

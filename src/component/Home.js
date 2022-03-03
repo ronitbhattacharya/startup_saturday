@@ -69,7 +69,7 @@ function MainContent(){
                     <div> Co-Founder,CEO&CPO</div>
                     </div>
                 </div>
-                <div className='part-2-ceo-1'>                    
+                <div className='part-2-ceo-2'>                    
                     <div className='ceo-1-content'>
                     We are open to both India and global
                     listing.Right now,however,we are focused
@@ -120,9 +120,18 @@ function MainContent(){
                 <img src={`${host_name}/startuphome.jpg`} alt=""/>
             </div>
             <div className='part-4-icons' >
-            <img onClick={()=>{history.push(`${host_name}/registrationform`)}} className="part-4-img-1" src={`${host_name}/registrationForm.png`} alt=""/>
+                <div>
+                    <img onClick={()=>{history.push(`${host_name}/registrationform`)}} className="part-4-img-1" src={`${host_name}/registrationForm.png`} alt=""/>
+                    Lorem ipsum dolor sit amet.
+                </div>
+                <div>
             <img className="part-4-img-2" src={`${host_name}/homeStartUpIcon.png`} alt=""/>
+            Lorem ipsum dolor sit amet.
+                </div>
+                <div>
             <img className="part-4-img-3" src={`${host_name}/getDealHome.png`} alt=""/>
+            Lorem ipsum dolor sit amet.
+                </div>
             </div>
             </div>
             </div>

@@ -10,13 +10,13 @@ const testimonials={
     2:{"msg":`It was a pleasure to meet the Business tycoon of India Amit
     Chaudhary Co-Founder of Lenskart.Had an amazing interactive
     session which was apart of Startup Saturday initiative.Also,got
-    a chance to discuss the expansion plans of the brand.`,"img":`${Server_Url}/testimonial1.jpg`,"name":"Paras Satija"},
+    a chance to discuss the expansion plans of the brand.`,"img":`${Server_Url}/testimonial2.jpg`,"name":"Paras Satija"},
     3:{"msg":`Had a fruitful strategic & road map discussion for HOPPUP with
     no other then Amit Chaudhary.It was a pleasure to e-meet you.
     All thanks to Lenskart.com for initiating Startup Saturdays and
     giving a platform to budding entrepeneurs at early stage to be
     mentored.Thanks to Rima Kapoor for giving us an opportunity
-    to be there.`,"img":`${Server_Url}/testimonial1.jpg`,"name":"Deepak Arora"},
+    to be there.`,"img":`${Server_Url}/testimonial3.jpg`,"name":"Deepak Arora"},
 }
 
 export {testimonials}

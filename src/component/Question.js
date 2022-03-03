@@ -51,7 +51,7 @@ export default function Question() {
     if(getCurrent!==0){
       obj[getCurrent]=getValue
       setResponses(obj)
-    }
+    } 
     setValue(obj[getCurrent+1]===undefined?"":obj[getCurrent+1])
     if(getCurrent===Object.keys(questions).length){
       alert("Your Response Submitted")

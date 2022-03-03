@@ -7,12 +7,13 @@
     width: 100%;
     flex-wrap: wrap;
     padding: 10px;
-}
+}  
 
 .contact-body{
     box-sizing: border-box;
     width:50%;
     height:100%;
+    background-position: bottom;
 }
 
 .footer-lens-logo{
@@ -24,6 +25,10 @@
 .footer-address-text{
     margin-top: 5px;
     color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
     cursor: default;
 }
 
@@ -41,6 +46,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
