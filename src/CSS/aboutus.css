@@ -1,0 +1,48 @@
+.aboutus-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.part-1-aboutus,.part-2-aboutus{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+}
+
+.part-1-content-aboutus,.part-2-content-aboutus{
+    margin-right: 10px;
+    width: 40%;
+    font-size: 18px;
+}
+
+.part-1-img-aboutus,.part-2-img-aboutus{
+    width: 30%;
+}
+
+.part-2-aboutus{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.part-2-content-aboutus{
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width:800px){
+    .part-1-content-aboutus,.part-2-content-aboutus{
+        width: 90%;
+    }
+    .part-1-img-aboutus,.part-2-img-aboutus{
+        width: 90%;
+    }
+}

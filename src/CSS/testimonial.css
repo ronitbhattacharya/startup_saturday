@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     height: 100%;
     color:rgb(9, 9, 78);
@@ -36,7 +36,7 @@
     border: 2px solid rgb(9, 9, 78);
     border-radius: 10px;
     padding: 20px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .testimonial-img img{

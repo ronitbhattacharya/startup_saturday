@@ -39,12 +39,10 @@ export default function Header() {
 
   return (
     <div className='header-body'>
-        <div className="menu-icon">
-            <MenuIcon fontSize='large' onClick={()=>toogleDrawer(true)}/>
-        </div>
         <div className='header-icon'>
             <img src={`${host_name}/lenskartlogo.png`} alt="LensKart Logo" />
         </div>
+        
         <div className='action-tabs'>
 
             <div onClick={()=>{history.replace({pathname:`${host_name}/`})}} >Home</div>
@@ -55,6 +53,10 @@ export default function Header() {
             <div onClick={()=>{history.replace({pathname:`${host_name}/contactus`})}} >contact us</div>
             <div onClick={()=>{history.replace({pathname:`${host_name}/careers`})}} >careers</div>
             {/* <div><SearchIcon/></div> */}
+        </div>
+        
+        <div className="menu-icon">
+            <MenuIcon fontSize='large' onClick={()=>toogleDrawer(true)}/>
         </div>
         <Drawer
             anchor="left"

@@ -28,13 +28,14 @@
 }
 
 .contact-img{
-    width:35%
+    width:35%;
+    margin-top: 10px;
 }
 
 .contact-img img{
     width: 100%;
-    border-radius: 20px;
-    box-shadow: 18px 15px 6px rgb(9, 9, 78) ;
+    border-radius: 10px;
+    /* box-shadow: 18px 15px 6px rgb(9, 9, 78) ; */
 }
 
 .contact-heading{

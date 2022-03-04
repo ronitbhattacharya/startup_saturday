@@ -19,19 +19,29 @@ function MainContent(){
     <div className='main-home-content'>
         <div className='part-1'>
         <div className='part-1-content'>
-                    <div className='part-1-text-1'>Start thinking to build a innnovative product.</div>
+                    <div className='main-part-heading'>
+
                     <div className='part-1-text-2'>LenStart @ LensKart</div>
-                    <div className='part-1-text-3'>Lenstart goal is to empower all the employees to
-                    become intrapeneurs.A chance to build the tools and
-                    framework to turn great ideas into profitable offers.</div>
+                    <div className='part-1-text-1'>Start thinking to build a innnovative product.</div>
                 <div className='part-1-btn'>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScaZ-oRiSEBFccPTy2JJl7oW2vjLP38R5zKONZwlgmu14mIOg/viewform?vc=0&c=0&w=1&flr=0' target="_blank"><button>Registration Form</button></a>
+                    <a rel="noreferrer" href='https://docs.google.com/forms/d/e/1FAIpQLScaZ-oRiSEBFccPTy2JJl7oW2vjLP38R5zKONZwlgmu14mIOg/viewform?vc=0&c=0&w=1&flr=0' target="_blank"><button>Apply Now</button></a>
                 </div>
+                    </div>
+                    
                 </div>
                 <div className='part-1-img'>
                         <img src={`${host_name}/lenstart1.jpg`} alt="" />
                 </div>
         </div>
+        <div className="intro-text">
+                <div className="intro-img">
+                
+                </div>
+                <div className='part-1-text-3'>Lenstart goal is to empower all the employees to
+                    become intrapeneurs.A chance to build the tools and
+                    framework to turn great ideas into profitable offers.</div>
+            </div>
+        
         <div className="part-2-heading">
                     <div className='heading-text'>
                     Four Verticals At Lenstart

@@ -2,49 +2,56 @@ import React from 'react';
 import Footer from "./Footer"
 import Header from "./Header"
 import "../CSS/home.css"
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import { useHistory } from 'react-router-dom';
+import {useHistory} from "react-router-dom"
 import { host_name } from './Keys';
 export default function Home() {
   return (
-      <>
+      <div style={{width:"100%"}}>
         <Header/>
         <MainContent/>
         <Footer/>
-      </>
+      </div>
   );
 }
 
 
 function MainContent(){
-    const history=useHistory();
+    const history=useHistory()
     return(
         <div className='main-home-content'>
             <div className='part-1'>
                 <div className='part-1-content'>
-                    <div className='part-1-text-1'>Opportunities is waiting for you</div>
-                    <div className='part-1-text-2'>StartUp Saturday</div>
-                    <div className='part-1-text-3'>It empowering employees for enterpenuers.It is a one stop
-                platform to get budding enterpeneurs togather to one
-                platform.We believe that enterpeneurship is away creating
-                value with new products,new ways of running businesses.A
-                comapany is looking to build on something that already exists
-                tends to favor incremental over disruptive innovations-if you
-                already have a product and you want to take advantage of
-                that product then you are at the right place because you will
-                get a chance to finded,incubated by our founders Peyush and
-                Amit.</div>
-                <div className='part-1-btn'>
-                    <button onClick={()=>{history.push(`${host_name}/registrationform`)}}>Registration Form</button>
+                    <div className='main-part-heading'>
+                    <div className='part-1-text-2'>StartUp Saturdays</div>
+                    <div className='part-1-text-1'>Grab the Opportunity</div>
+                    <div className='part-1-btn'>
+                <a rel="noreferrer" href='https://g0mq6dwc1y3.typeform.com/to/QhLha4ci' target="_blank">
+                    <button>Apply Now</button>
+                </a>
                 </div>
+                    </div>
+                   
                 </div>
                 <div className='part-1-img'>
                         <img src={`${host_name}/discussion.jpg`} alt="" />
                 </div>
             </div>
+            <div className="intro-text">
+                <div className="intro-img">
+                
+                </div>
+            <div className='part-1-text-3'>
+            If you're a budding entrepreneur or simply someone with an entrepreneurial bone in your body, you've arrived at the right place.
+            <br/>
+            Register your interest for Startup Saturdays by clicking the Registration Form and answering a few questions. We''ll invite the most promising ones for a free-wheeling 30-minute chat with one of the Lenskart Founders, where you can ask them anything and everything you'd like to know about building and scaling a startup from scratch. If all goes well you might get a chance for your idea to be funded and incubated by the Founders.
+            <div onClick={()=>{history.push(`${host_name}/aboutus`)}}>
+                Know more
+            </div>
+            </div>
+            </div>
                 <div className="part-2-heading">
                     <div className='heading-text'>
-                        Co-Founder's
+                        Meet the Co-Founder's
                     </div>
                     <div className='heading-line'>
 
@@ -64,9 +71,8 @@ function MainContent(){
                     look at our scale,we do not necessarily feel
                     that we have created on big dent in any
                     market.
-
                     <div className='ceo-name'>Peyush Bansal </div>
-                    <div> Co-Founder,CEO&CPO</div>
+                    <div className='ceo-pos'> Co-Founder,CEO&CPO</div>
                     </div>
                 </div>
                 <div className='part-2-ceo-2'>                    
@@ -80,7 +86,7 @@ function MainContent(){
                     that we have created on big dent in any
                     market.
                     <div className='ceo-name'>Amit Chaudhary </div>
-                    <div> Co-Founder,CEO&CPO</div>
+                    <div className='ceo-pos'> Co-Founder,CEO</div>
                     </div>
                     <div className='ceo-1-img'>
                     <img src={`${host_name}/amit.jpg`} alt="Amit" />
@@ -90,7 +96,7 @@ function MainContent(){
             <div className='part-3'>
             <div className="part-2-heading">
                     <div className='heading-text' style={{textAlign:"center"}}>
-                        Message From CEO
+                        Message From Co-Founder
                     </div>
                     <div className='heading-line'>
 
@@ -121,16 +127,18 @@ function MainContent(){
             </div>
             <div className='part-4-icons' >
                 <div>
-                    <img onClick={()=>{history.push(`${host_name}/registrationform`)}} className="part-4-img-1" src={`${host_name}/registrationForm.png`} alt=""/>
-                    Lorem ipsum dolor sit amet.
+                        <a rel="noreferrer" href='https://g0mq6dwc1y3.typeform.com/to/QhLha4ci' target="_blank">  
+                        <img className="part-4-img-1" src={`${host_name}/registrationForm.png`} alt=""/>
+                        </a>
+                        Fill the application form
                 </div>
                 <div>
             <img className="part-4-img-2" src={`${host_name}/homeStartUpIcon.png`} alt=""/>
-            Lorem ipsum dolor sit amet.
+            Pitch your Startup idea
                 </div>
                 <div>
             <img className="part-4-img-3" src={`${host_name}/getDealHome.png`} alt=""/>
-            Lorem ipsum dolor sit amet.
+            Get free mentorship Session
                 </div>
             </div>
             </div>
@@ -139,9 +147,9 @@ function MainContent(){
             <div className="part-2-heading">
                     <div className='heading-text' style={{textAlign:"center"}}>
                     Our Team
-                    <div >
+                    {/* <div >
                     Committed To Team Excellence
-                    </div>
+                    </div> */}
                     </div>
                     <div className='heading-line'>
                     </div>
