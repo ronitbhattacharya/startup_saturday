@@ -17,14 +17,14 @@ export default function Testimonial() {
 function MainContent(){
     return(
       <div className='main-testimonial-body'>
-      <div className="part-2-heading">
-                    <div className='heading-text'>
-                        Testimonial's
-                    </div>
-                    <div className='heading-line'>
-
-                    </div>
+     <div className='home-part-4-heading'>
+                <div className='home-h4'>
+                Our Testimonial's
                 </div>
+                <div className='border-line'>
+
+                </div>
+            </div>
           {Object.values(testimonials).map((data)=>{
             return(
               <div className='testimonial-content-body'>

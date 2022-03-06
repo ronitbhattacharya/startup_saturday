@@ -7,13 +7,14 @@
     width: 100%;
     flex-wrap: wrap;
     padding: 10px;
+    background-position: bottom left;
 }  
 
 .contact-body{
     box-sizing: border-box;
     width:50%;
     height:100%;
-    background-position: bottom;
+    
 }
 
 .footer-lens-logo{

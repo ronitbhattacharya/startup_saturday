@@ -16,14 +16,14 @@ export default function AboutUs() {
 function MainComponent(){
      return(
        <div className="aboutus-body">
-         <div className="part-2-heading">
-                    <div className='heading-text'>
-                        About us
-                    </div>
-                    <div className='heading-line'>
+        <div className='home-part-4-heading'>
+                <div className='home-h4'>
+                About Us
+                </div>
+                <div className='border-line'>
 
-                    </div>
-          </div>
+                </div>
+            </div>
           <div className="part-1-aboutus">
               <div className='part-1-content-aboutus'>
               It focuses on issues of Innovation,Creativity and Entrepreneurship.It

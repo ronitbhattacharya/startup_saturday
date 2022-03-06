@@ -15,6 +15,6 @@ code {
 
 #root{
   width: 100%;
+  cursor: default;
   margin: 0px;
-  text-align: justify;
 }
