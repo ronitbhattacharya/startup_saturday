@@ -17,9 +17,9 @@
 }
 
 .part-1-content-aboutus,.part-2-content-aboutus{
-    margin-right: 10px;
-    width: 40%;
-    font-size: 18px;
+    width: 80%;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .part-1-img-aboutus,.part-2-img-aboutus{

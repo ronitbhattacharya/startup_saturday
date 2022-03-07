@@ -47,11 +47,11 @@ export default function Header() {
 
             <div onClick={()=>{history.replace({pathname:`${host_name}/`})}} >Home</div>
             <div onClick={()=>{history.replace({pathname:`${host_name}/aboutus`})}} >about us</div>
-            <div onClick={()=>{history.replace({pathname:`${host_name}/programs`})}} >programs</div>
+            {/* <div onClick={()=>{history.replace({pathname:`${host_name}/programs`})}} >programs</div> */}
             <div onClick={()=>{history.replace({pathname:`${host_name}/lenstart`})}} >lenstart</div>
             <div onClick={()=>{history.replace({pathname:`${host_name}/testimonial`})}} >testimonials</div>
             <div onClick={()=>{history.replace({pathname:`${host_name}/contactus`})}} >contact us</div>
-            <div onClick={()=>{history.replace({pathname:`${host_name}/careers`})}} >careers</div>
+            {/* <div onClick={()=>{history.replace({pathname:`${host_name}/careers`})}} >careers</div> */}
             {/* <div><SearchIcon/></div> */}
         </div>
         

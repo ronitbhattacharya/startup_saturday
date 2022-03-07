@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from "./Footer"
 import Header from "./Header"
 import "../CSS/aboutus.css"
+import {host_name} from "./Keys"
 export default function AboutUs() {
   return (
     <>
@@ -16,14 +17,21 @@ export default function AboutUs() {
 function MainComponent(){
      return(
        <div className="aboutus-body">
-        <div className='home-part-4-heading'>
-                <div className='home-h4'>
-                About Us
+        <div className='part-1-lenstart'>
+            <div className='part-1-lenstart-content'>
+                <div className='home-h1'>
+                what we're about
                 </div>
-                <div className='border-line'>
-
+                <div className='home-h2'>
+                about us
                 </div>
+                
+                
             </div>
+            <div className='part-1-lenstart-img'>
+                <img src={`${host_name}/aboutus.jpg`} alt=""/>
+            </div>
+        </div>
           <div className="part-1-aboutus">
               <div className='part-1-content-aboutus'>
               It focuses on issues of Innovation,Creativity and Entrepreneurship.It
@@ -37,14 +45,10 @@ function MainComponent(){
               Where business models not only are limited to balancesheets,but to
               the betterment of India and the globe as a whole.
               </div>
-              <div className='part-1-img-aboutus'>
-                <img src="" alt="" />
-              </div>
+              
           </div>
           <div className="part-2-aboutus">
-              <div className='part-2-img-aboutus'>
-                <img src="" alt="" />
-              </div>
+              
               <div className="part-2-content-aboutus">
               Ideas don’t matter , execution does.But even the world’s best
               enterpeneur would fail waith fundamentally flawed startup ideas.

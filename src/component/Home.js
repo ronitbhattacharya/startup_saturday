@@ -29,7 +29,7 @@ function MainComponent(){
                 <div className='home-content'>
 
                 <div className='home-h1'>
-                Grab the Opportunity
+                bring your startUp idea to life with lensKart's
                 </div>
                 <div className='home-h2'>
                 StartUp Saturdays
@@ -48,7 +48,7 @@ function MainComponent(){
             </div>
             <div className='home-part-4-heading'>
                 <div className='home-h4'>
-                Meet the Co-Founder's
+                Meet the Co-Founders
                 </div>
                 <div className='border-line'>
 
@@ -60,14 +60,7 @@ function MainComponent(){
                             <img src={`${host_name}/piyush.jpg`} alt="Piyush Bansal" />
                         </div>
                         <div className='ceo-about'>
-                        We are open to both India and global
-                        listing.Right now,however,we are focused
-                        towards getting to a scale and a stage
-                        where we feel somewhat satisfied that we
-                        have created an impact.Cureently,if you
-                        look at our scale,we do not necessarily feel
-                        that we have created on big dent in any
-                        market.
+                        To build futuristic firms , it's important to not get swayed by market or investor benchmarks but set one's own.
                         </div>
                         <div className='designation-ceo'>
                         Peyush Bansal
@@ -80,14 +73,7 @@ function MainComponent(){
                     <img src={`${host_name}/amit.jpg`} alt="Amit" />
                         </div>
                         <div className='ceo-about'>
-                        We are open to both India and global
-                    listing.Right now,however,we are focused
-                    towards getting to a scale and a stage
-                    where we feel somewhat satisfied that we
-                    have created an impact.Cureently,if you
-                    look at our scale,we do not necessarily feel
-                    that we have created on big dent in any
-                    market.
+                        To build futuristic firms , it's important to not get swayed by market or investor benchmarks but set one's own.
                         </div>
                         <div className='designation-ceo'>
                         Amit Chaudhary

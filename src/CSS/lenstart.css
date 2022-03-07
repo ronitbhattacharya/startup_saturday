@@ -13,6 +13,8 @@
 .part-1-lenstart-content{
     width: 60%;
     color: white;
+    /* color:rgb(26, 26, 71); */
+    /* background-color: rgba(26, 26, 71,0.1); */
     display: flex;
     flex-direction: column;
     justify-content:center;

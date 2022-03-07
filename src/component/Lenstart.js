@@ -23,7 +23,7 @@ function MainComponent(){
         <div className='part-1-lenstart'>
             <div className='part-1-lenstart-content'>
                 <div className='home-h1'>
-                Start thinking to build a innnovative product.
+                One time Opportunity for all Lenskart Employees
                 </div>
                 <div className='home-h2'>
                 LenStart @ LensKart
@@ -45,7 +45,7 @@ function MainComponent(){
         </div>
         <div className='home-part-4-heading'>
                 <div className='home-h4'>
-                four verticals at Lenskart
+                four verticals at LenStart
                 </div>
                 <div className='border-line'>
 
