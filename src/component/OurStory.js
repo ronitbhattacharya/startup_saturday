@@ -12,7 +12,9 @@ export default function OurStory(props) {
                         <img src={`${item.img}`} alt="Amit" />                   
                     </div>
                     <div className="part-7-name-tag">
-                        {item.name}   
+                        {item.name} 
+                        <br/>
+                        {item.role}  
                     </div>
                 </div>
                     )

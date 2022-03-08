@@ -37,6 +37,17 @@
     margin-left: 10px;
 }
 
+.part-1-lenstart-img-about{
+    width: 100%;
+    height: 40vw;
+    z-index: -20;
+}
+.part-1-lenstart-img-about img{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 @media only screen and (max-width:800px){
     .part-1-content-aboutus,.part-2-content-aboutus{

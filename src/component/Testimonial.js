@@ -37,6 +37,8 @@ function MainContent(){
                   </div>
                   <div className='testimonial-name'>
                         {data.name}
+                        <br/>
+                        {data.role}
                   </div>
                 </div>
               </div>

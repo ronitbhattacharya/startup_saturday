@@ -17,13 +17,13 @@ export default function Home() {
 
 
 function MainComponent(){
-    const ourTeam=[{name:"Amit",img:`${host_name}/amit.jpg`},{name:"Peyush",img:`${host_name}/piyush.jpg`},{name:"Amit",img:`${host_name}/amit.jpg`}]
+    const ourTeam=[{name:"Rima Kapoor",img:`${host_name}/RimaKapoor.jpg`,role:"HRBP"},{name:"Nitin Gupta",img:`${host_name}/NitinGupta.jpg`,role:"Developer"},{name:"Ronit Bhattacharya",img:`${host_name}/RonitBhattacharya.jpg`,role:"Project Manager"}]
     const ourTestimonial=Object.values(testimonials)
     
     return(
     <>
 
-        <div className='main-home-body'>
+        <div className='main-home-body'> 
             <div className='home-part-1-img'>
                 <img src={`${host_name}/discussion.jpg`} alt=""/>
             </div>
@@ -137,8 +137,8 @@ function MainComponent(){
             </div>
             
         </div>
-    <OurStory ourList={ourTeam} heading={"Our Team"}/>       
     <OurStory ourList={ourTestimonial} heading={"Our Story"}/>       
+    <OurStory ourList={ourTeam} heading={"Our Team"}/>       
     </>
 
     )

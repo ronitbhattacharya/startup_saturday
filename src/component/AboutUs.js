@@ -28,7 +28,7 @@ function MainComponent(){
                 
                 
             </div>
-            <div className='part-1-lenstart-img'>
+            <div className='part-1-lenstart-img-about'>
                 <img src={`${host_name}/aboutus.jpg`} alt=""/>
             </div>
         </div>

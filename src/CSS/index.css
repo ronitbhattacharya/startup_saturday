@@ -20,9 +20,9 @@ code {
 }
 
 
-@media only screen and (max-width:800px) 
+@media only screen and (max-width:300px) 
  {
   #root{
-    /* width: 106%; */
+    /* width: 108%; */
   }
 }

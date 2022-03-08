@@ -95,6 +95,7 @@
 }
 
 .main-text{
+    width: 100%;
     font-size: 18px;
 }
 
@@ -107,11 +108,11 @@
         width: 80%;
     }
     .lenstart-btn{
-        margin-top: 20vw;
+        margin-top: 10vw;
         font-size: 18px;
     }
     .part-2-lenstart{
-        margin-top: 20vw;
+        margin-top: 15vw;
     }
     .part-1-lenstart-img{
         height: 100vw;
@@ -122,13 +123,18 @@
     .lenstart-part-2-content{
         width: 95%;
         margin: 10px;
-        align-items: center;
+        /* align-items: center; */
     }
     .vertical-line{
         display: none;
     }
     .part-2-main-lenstart{
-        /* width: %; */
-        /* margin-inline: 0px; */
+        width: 100%;
+    }
+    .lenstart-icon img{
+        width: 70%;
+    }
+    .main-text{
+        font-size: 16px
     }
 }
