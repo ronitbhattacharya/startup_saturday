@@ -2,6 +2,8 @@ import React from 'react'
 import Header from "./Header"
 import Footer from "./Footer"
 import { host_name } from './Keys'
+import OurStory from "./OurStory"
+import { testimonials } from './testimonials'
 import "../CSS/lenstart.css"
 export default function Lenstart() {
   return (
@@ -15,9 +17,9 @@ export default function Lenstart() {
 
 
 function MainComponent(){
-
+    const ourTestimonial=Object.values(testimonials)
     return(
-
+        <>
         <div className='lenstart-main-body'>
             
         <div className='part-1-lenstart'>
@@ -35,7 +37,7 @@ function MainComponent(){
                 </div>
                 <div className='home-part-3-btn'>
                 <a rel="noreferrer" href='https://g0mq6dwc1y3.typeform.com/to/QhLha4ci' target="_blank">
-                        <button style={{fontSize:25}} className='lenstart-btn'>Registration Form</button>
+                        <button  className='lenstart-btn'>Registration Form</button>
                     </a>
             </div>
             </div>
@@ -54,9 +56,9 @@ function MainComponent(){
 
         <div className='part-2-lenstart'>
             <div className='part-2-main-lenstart'>
-                <div className='vertical-line'>
+                {/* <div className='vertical-line'>
 
-                </div>
+                </div> */}
                 <div className='lenstart-icon'>
                     <img src={`${host_name}/business idea icon.png`} alt=""/>
                 </div>
@@ -138,6 +140,8 @@ function MainComponent(){
             </div>
         </div>
         </div>
+        <OurStory ourList={ourTestimonial} heading={"Our Story"}/> 
+        </>
     )
 
 }

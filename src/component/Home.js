@@ -2,10 +2,9 @@ import React from 'react'
 import "../CSS/home.css"
 import Header from "./Header"
 import Footer from "./Footer"
+import OurStory from "./OurStory"
+import { testimonials } from './testimonials'
 import { host_name } from './Keys'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick"
 export default function Home() {
   return (
     <>
@@ -18,8 +17,11 @@ export default function Home() {
 
 
 function MainComponent(){
-    const ourTeam=[{name:"Amit",img:"amit.jpg"},{name:"Peyush",img:"piyush.jpg"},{name:"Amit",img:"amit.jpg"}]
+    const ourTeam=[{name:"Amit",img:`${host_name}/amit.jpg`},{name:"Peyush",img:`${host_name}/piyush.jpg`},{name:"Amit",img:`${host_name}/amit.jpg`}]
+    const ourTestimonial=Object.values(testimonials)
+    
     return(
+    <>
 
         <div className='main-home-body'>
             <div className='home-part-1-img'>
@@ -84,7 +86,7 @@ function MainComponent(){
             </div>
             <div className='home-part-6-content'>
 
-            <div className='home-part-4-heading' style={{marginTop:"129px"}}>
+            <div className='home-part-4-heading' style={{marginTop:"8vw"}}>
                 <div className='home-h4' style={{color:"white"}}>
                 Message from Co-Founder
                 </div>
@@ -133,34 +135,11 @@ function MainComponent(){
             </div>
 
             </div>
-            <div className='home-part-4-heading'>
-                <div className='home-h4'>
-                Our team
-                </div>
-                <div className='border-line'>
-
-                </div>
-            </div>
-         <div className='home-ourteam'>
-             {/* <Slider  slidesToScroll={1} slidesToShow={2} > */}
-
-            {  ourTeam.map((item)=>{
-                return(
-                    
-                       <div className='home-part-7-content'>
-                 <div className='home-part-7-img'>
-                 <img src={`${host_name}/${item.img}`} alt="Amit" />                   
-                 </div>
-                 <div className="part-7-name-tag">
-                     {item.name} Sir    
-                 </div>
-             </div>
-                    )
-        })
-            }
-            {/* </Slider> */}
-                    </div>
+            
         </div>
+    <OurStory ourList={ourTeam} heading={"Our Team"}/>       
+    <OurStory ourList={ourTestimonial} heading={"Our Story"}/>       
+    </>
 
     )
 

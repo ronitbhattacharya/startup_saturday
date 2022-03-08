@@ -10,11 +10,11 @@
     width: 100%;
 }
 
+
+
 .part-1-lenstart-content{
     width: 60%;
     color: white;
-    /* color:rgb(26, 26, 71); */
-    /* background-color: rgba(26, 26, 71,0.1); */
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -26,7 +26,7 @@
 }
 
 .lenstart-btn{
-    margin-top: 90%;
+    margin-top: 15vw;
     
     background-color: rgb(26, 26, 71);
     color: white;
@@ -40,8 +40,7 @@
 
 .part-1-lenstart-img img{
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
 }
 
 .part-2-lenstart{
@@ -60,6 +59,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     /* justify-content: space-between; */
     width: 80%;
 }
@@ -100,4 +100,35 @@
 
 .main-text span{
     font-weight: bold;
+}
+
+@media only screen and (max-width:800px){
+    .part-1-lenstart-content{
+        width: 80%;
+    }
+    .lenstart-btn{
+        margin-top: 20vw;
+        font-size: 18px;
+    }
+    .part-2-lenstart{
+        margin-top: 20vw;
+    }
+    .part-1-lenstart-img{
+        height: 100vw;
+    }
+    .lenstart-icon{
+        width: 100%;
+    }
+    .lenstart-part-2-content{
+        width: 95%;
+        margin: 10px;
+        align-items: center;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .part-2-main-lenstart{
+        /* width: %; */
+        /* margin-inline: 0px; */
+    }
 }

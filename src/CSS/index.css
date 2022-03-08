@@ -18,3 +18,11 @@ code {
   cursor: default;
   margin: 0px;
 }
+
+
+@media only screen and (max-width:800px) 
+ {
+  #root{
+    /* width: 106%; */
+  }
+}

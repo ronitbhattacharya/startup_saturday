@@ -11,14 +11,14 @@ import ListItemText from '@mui/material/ListItemText';
 import "../CSS/header.css"
 export default function Header() {
   const history=useHistory()
-  const actionbtn={"Home":{link:"/",icon:<></>},"About Us":{link:"/aboutus",icon:<></>},"Programs":{link:"/programs",icon:<></>},"LenStart":{link:"/lenstart",icon:<></>},"Testimonials":{link:"/testimonial",icon:<></>},"Contact Us":{link:"/contactus",icon:<></>},"Careers":{link:"/careers",icon:<></>}}
+  const actionbtn={"Home":{link:"/",icon:<></>},"About Us":{link:"/aboutus",icon:<></>},"LenStart":{link:"/lenstart",icon:<></>},"Testimonials":{link:"/testimonial",icon:<></>},"Contact Us":{link:"/contactus",icon:<></>}}
   const [getDrawer,setDrawer]=useState(false)
   const toogleDrawer=(status)=>{
       setDrawer(status)
   }
   
   const list = () => (
-    <div onClick={()=>toogleDrawer(false)} onKeyDown={()=>toogleDrawer(false)}>
+    <div onClick={()=>toogleDrawer(false)} onKeyDown={()=>toogleDrawer(false)} style={{backgroundColor:"rgb(26, 26, 71)",height:"100%",color:"white"}}>
       <div className='header-icon-drawer'>
             <img src={`${host_name}/lenskartlogo.png`} alt="LensKart Logo" />
         </div>
@@ -59,6 +59,7 @@ export default function Header() {
             <MenuIcon fontSize='large' onClick={()=>toogleDrawer(true)}/>
         </div>
         <Drawer
+          
             anchor="left"
             open={getDrawer}
             onClose={()=>toogleDrawer(false)}
