@@ -32,8 +32,13 @@ function MainComponent(){
                 </div>
                 <div className='home-h3'>
                 Lenstart goal is to empower all the employees to
-                    become intrapeneurs.A chance to build the tools and
-                    framework to turn great ideas into profitable offers.
+                    become entreprenuers.Lenstart promises to bring to you 
+                    multitude of opportunities from fostering your business 
+                    ideas to profitable offers, getting mentored by our 
+                    Founding Fathers, Peyush Bansal and Amit Chaudhary,
+                    to networking and developing your business skills. We are looking for
+                    high spirited and motivated employees who with their ideas are willing 
+                    to boost the culture and drive change in Lenskart. 
                 </div>
                 <div className='home-part-3-btn'>
                 <a rel="noreferrer" href='https://g0mq6dwc1y3.typeform.com/to/QhLha4ci' target="_blank">
